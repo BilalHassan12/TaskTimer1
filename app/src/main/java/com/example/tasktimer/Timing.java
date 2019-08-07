@@ -1,7 +1,5 @@
 package com.example.tasktimer;
-* Simple Timing object.
-* Sets its start time when created and calculates how long since creation.
-* when setDuration is called
+
 
 
 

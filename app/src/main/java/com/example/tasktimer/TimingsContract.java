@@ -19,15 +19,15 @@ public static final String _ID = BaseColumns._ID;
         public static final String TIMINGS_TASK_ID = "TaskId";
         public static final String TIMINGS_START_TIME = "StartTime";
         public static final String TIMINGS_DURATION = "Duration";
-        public static String _ID;
+        /*public static String _ID;*/
 
         private Columns(){
             //private constructor to prevent instantiation
         }
     }
 
-*
-     * The URI to access the Timings table.
+
+
 
 
     public static final Uri CONTENT_URI = Uri.withAppendedPath(CONTENT_AUTHORITY_URI, TABLE_NAME);
